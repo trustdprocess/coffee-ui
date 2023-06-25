@@ -20,7 +20,10 @@ class RouteGenerator {
 }
 
 Route<dynamic> Error() {
-  return MaterialPageRoute(builder: (_) => Scaffold(
-    appBar: AppBar(title: Text("Error!"),),
-  ));
-}
+  return MaterialPageRoute(
+      builder: (_) => Scaffold(
+            appBar: AppBar(
+              title: Text("Error!"),
+            ),
+          ));
+}//hello
